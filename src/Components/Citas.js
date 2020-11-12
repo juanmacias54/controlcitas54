@@ -15,7 +15,7 @@ export const Citas = ({cita , eliminarCita}) => {
             </div>
             <button
                 className='button button-primary'
-                onClick={()=>git initeliminarCita(id)}
+                onClick={()=>eliminarCita(id)}
             >Eliminar
             </button>
         </>
